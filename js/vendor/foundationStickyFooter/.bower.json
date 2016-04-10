@@ -1,0 +1,13 @@
+{
+  "name": "foundationStickyFooter",
+  "homepage": "https://github.com/coreysyms/foundationStickyFooter",
+  "_release": "0fa690062f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0fa690062fe30d7e22b7cfe80ef91614a6570c27"
+  },
+  "_source": "git://github.com/coreysyms/foundationStickyFooter.git",
+  "_target": "*",
+  "_originalSource": "coreysyms/foundationStickyFooter"
+}

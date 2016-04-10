@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1a1267be1a67f4b4f5bf8d6bef021edc",
+    "content-hash": "9bc4d854e75b09523ef439ebb261fb05",
+    "packages": [
+        {
+            "name": "tzeumer/Sip2Wrapper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tzeumer/Sip2Wrapper.git",
+                "reference": "42b2137a4c14056b8451af27a039a1379f2606e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tzeumer/Sip2Wrapper/zipball/42b2137a4c14056b8451af27a039a1379f2606e2",
+                "reference": "42b2137a4c14056b8451af27a039a1379f2606e2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4.13 || ^7.0"
+            },
+            "type": "library",
+            "license": [
+                "GPL3"
+            ],
+            "authors": [
+                {
+                    "name": "John Wohlers",
+                    "email": "john@wohlershome.net"
+                },
+                {
+                    "name": "Tobias Zeumer",
+                    "email": "github@verweisungsform.de"
+                }
+            ],
+            "description": "Client for SIP2 (Standard Interchange Protocol) communication as used with SelfCheck systems or library automation system dealing with patrons or library materials. Class supports TLS and comes with Gossip extension.",
+            "homepage": "https://github.com/tzeumer/Sip2Wrapper",
+            "keywords": [
+                "Gossip",
+                "SIP2",
+                "Standard Interchange Protocol",
+                "library automation"
+            ],
+            "support": {
+                "issues": "https://github.com/tzeumer/Sip2Wrapper/issues",
+                "source": "https://github.com/tzeumer/Sip2Wrapper/tree/master"
+            },
+            "time": "2016-04-10 17:05:22"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tzeumer/sip2wrapper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.13"
+    },
+    "platform-dev": []
+}

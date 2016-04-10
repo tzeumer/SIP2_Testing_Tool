@@ -1,0 +1,13 @@
+{
+  "name": "JQuerySerializeCheckbox",
+  "_cacheHeaders": {
+    "ETag": "\"0b2053e9f8ca660d8b49a248aab1387912a261b9\"",
+    "Content-Length": "1302",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:0b2053e9f",
+  "main": "index.js",
+  "_source": "https://gist.githubusercontent.com/TaoK/1572512/raw/a75a0a5cac34dec92d5d8954915a852736b5563c/JQuerySerializeCheckbox.js",
+  "_target": "*",
+  "_originalSource": "https://gist.githubusercontent.com/TaoK/1572512/raw/a75a0a5cac34dec92d5d8954915a852736b5563c/JQuerySerializeCheckbox.js"
+}
