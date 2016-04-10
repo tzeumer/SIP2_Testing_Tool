@@ -1,0 +1,29 @@
+body { /* font-size: 0.8em; */ }
+
+#logwindow, #readable   {height: 200px; overflow-y: scroll;}
+pre                     {white-space: pre-wrap; font-size: 0.65rem;}
+#screen_message pre     {text-align: center; font-weight: bold; font-size: 0.75rem;}
+
+form    {padding-top: 10px; border: thin solid #000000: }
+legend  {font-weight: bold;}
+.input-group-label {min-width: 120px; }
+
+
+/* Color styling elements */
+button {color: #FFB200 !important; font-weight: bold;}
+button.cmdDefWidth {min-width: 125px;}
+
+#form_connect_asc, #form_connect_sc
+                    {background-color: #F2FFE6;}
+#responses div      {background-color: #FFFFE7;}
+#action_area        {background-color: #ffffff;}
+
+.dropdown-pane {
+  background: #333;
+  color: #FF8040;
+  font-weight: bold;
+  font-style: normal;
+  /* Prevent scrollbars */
+  position: aboslute;
+  left:0;
+}

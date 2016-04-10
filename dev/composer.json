@@ -1,0 +1,30 @@
+{
+    "name": "tzeumer/Sip2TestingTool",
+    "description": "PHP dependencies for Client-GUI for testing SIP2 (Standard Interchange Protocol) communication as used with SelfCheck systems or library automation system dealing with patrons or library materials. Supports TLS and Gossip extension.",
+    "keywords": ["SIP2", "Standard Interchange Protocol", "library automation", "Gossip"],
+    "homepage": "https://github.com/tzeumer/Sip2TestingTool",
+    "type": "library",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Tobias Zeumer",
+            "email": "github@verweisungsform.de"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tzeumer/Sip2TestingTool/issues"
+    },
+    "config": {
+        "vendor-dir": "../inc/vendor"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tzeumer/Sip2Wrapper"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.13",
+        "tzeumer/Sip2Wrapper": "dev-master"
+    }
+}

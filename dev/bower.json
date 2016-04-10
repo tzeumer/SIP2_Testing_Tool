@@ -1,0 +1,30 @@
+{
+  "name": "Sip2TestingTool",
+  "version": "0.0.0",
+  "authors": [
+    "Tobias Zeumer <github@verweisungsform.de>"
+  ],
+  "description": "Frontend dependencies for Client-GUI for testing SIP2 (Standard Interchange Protocol) communication as used with SelfCheck systems or library automation system dealing with patrons or library materials. Supports TLS and Gossip extension",
+  "keywords": [
+    "SIP2",
+    "Standard Interchange Protocol",
+    "library automation",
+    "Gossip"
+  ],
+  "license": "GPL3",
+  "homepage": "https://github.com/tzeumer/Sip2TestingTool",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.2",
+    "foundation-sites": "~6.*",
+    "modernizr": "*",
+    "foundationStickyFooter": "coreysyms/foundationStickyFooter",
+    "JQuerySerializeCheckbox": "https://gist.githubusercontent.com/TaoK/1572512/raw/a75a0a5cac34dec92d5d8954915a852736b5563c/JQuerySerializeCheckbox.js"
+  }
+}

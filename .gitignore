@@ -1,0 +1,7 @@
+# Dependencies. Changes in these folders should reasonably never be tracked/pushed
+dev/composer.lock
+inc/vendor/*
+js/vendor/*
+
+# Some exclusions, so the folders always are created, even if initally empty
+!*.gitkeep
