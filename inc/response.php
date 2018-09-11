@@ -7,8 +7,8 @@ require('vendor/tzeumer/Sip2Wrapper/Sip2Wrapper.php');
 require('vendor/tzeumer/Sip2Wrapper/Gossip.class.php');
 
 // BEGIN -- Start session
-session_start();
 session_name('SIP2_TEST_TOOL');
+session_start();
 
 $autoconnect = ($_POST['sip2cmd'] == 'disconnect') ? false : true;
 $autoconnect =false;

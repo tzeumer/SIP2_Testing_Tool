@@ -51,16 +51,19 @@ $(document).ready(function() {
             data: formData,
             dataType:'json',
             success:function(data){
+                console.log(data);
                 if (data['status'] == 'success') {
                     toggle_buttons_success(command);
                     $('#logwindow pre').append( JSON.parse(data['log']) );
                     $('#readable pre').empty().append( data['data'] );
                     // Show screen message for patron
                     var xpar = JSON.parse(data['data_all']);
-                    if (xpar.variable.AF !== undefined) {
-                        $('#screen_message pre').empty().append("Last screen message:\n" + xpar.variable.AF );
-                    } else {
-                        $('#screen_message pre').empty().append("\n\n");
+                    if (typeof(xpar.variable) != "undefined") {
+                        if (xpar.variable.AF !== undefined) {
+                            $('#screen_message pre').empty().append("Last screen message:\n" + xpar.variable.AF );
+                        } else {
+                            $('#screen_message pre').empty().append("\n\n");
+                        }
                     }
                 }
                 else if (data['status'] == 'failure') {
@@ -73,6 +76,7 @@ $(document).ready(function() {
             },
             error: function(data) {
                 alert("Failure!");
+                console.log(data);
             }
         });
     });
