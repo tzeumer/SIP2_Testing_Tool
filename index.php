@@ -79,7 +79,7 @@ todo
 <main class="expanded row">
     <div id="connection_forms" class="expanded row">
         <!-- start CONNECTION FORM -->
-        <form id="form_connect_sc" class="small-12 columns">
+        <form id="form_connect_srv" class="small-12 columns">
             <!-- start SERVER SETTINGS -->
             <fieldset>
                 <legend class="small-12 columns">Automatic Circulation System (ACS) Server Settings</legend>
@@ -499,6 +499,14 @@ todo
                                 <span class="input-group-label">Item Properties</span>
                                 <input name="sip2[parameter][itmProp]" class="input-group-field" type="text" aria-describedby="help_itmProp" data-toggle="help_itmProp">
                                 <span id="help_itmProp" class="dropdown-pane help-text" data-dropdown data-hover="true" data-hover-pane="true">This field may contain specific item information that can be used for identifying a item, such as item weight, size, security marker, etc. It may possibly used for security reasons. ACSs are encouraged to store this information in their database.</span>
+                            </div>
+                            <div class="input-group more_options">
+                                <span class="input-group-label">No Block</span>
+                                <select name="sip2[parameter][noBlock]" class="input-group-field" aria-describedby="help_noBlock" data-toggle="help_noBlock">
+                                    <option value="N">No</option>
+                                    <option value="Y">Yes</option>
+                                </select>
+                                <span id="help_noBlock" class="dropdown-pane help-text" data-dropdown data-hover="true" data-hover-pane="true">This field notifies the ACS that the article was already checked in or out while the ACS was not on-line. When this field is Y, the ACS should not block this transaction because it has already been executed. The SC can perform transactions while the ACS is off-line. These transactions are stored and will be sent to the ACS when it comes back on-line.</span>
                             </div>
                             <div class="input-group more_options">
                                 <span class="input-group-label">No Block Due Date</span>
