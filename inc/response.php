@@ -95,7 +95,7 @@ if (is_ajax()) {
         else {
             $function   = $_POST['sip2cmd'];
             $parameters = (isset($_POST['sip2']['parameter'])) ? $_POST['sip2']['parameter'] : array();
-            $cmd_result = call_user_func_array(array($sip2, $function), $parameters);
+            $cmd_result = call_user_func_array(array($sip2, $function), array_values($parameters));
             // Also get the full result
             $sip2reponse = $sip2->getSip2_parsedResult();
         }
